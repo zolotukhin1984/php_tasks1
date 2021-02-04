@@ -1,0 +1,55 @@
+body {
+    font-family: Mono, Tahoma, sans-serif;
+    margin: 20px;
+}
+
+div.left {
+    width: 50%;
+}
+
+article {
+    position: relative;
+    background: gray;
+    padding: 30px;
+    margin: 20px;
+}
+
+div.task {
+    background: skyblue;
+    display: block;
+    border: black;
+    min-height: 70px;
+    margin: 10px;
+    padding: 10px;
+}
+
+button.del {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+div.right {
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    width: 40%;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+button.add {
+    position: fixed;
+    right: 60px;
+    height: 40px;
+    width: 100px;
+    font-size: 1.0em;
+    background: skyblue;
+    border: 1px solid blue;
+    color: white;
+}
